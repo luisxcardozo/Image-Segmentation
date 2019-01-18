@@ -66,7 +66,7 @@ Performing an inference time breakdown provided the following results:
 
 Indicating that transpose operations create an overhead that corresponds to 34% of total infer-ence execution time caused by Keras’ structure.
 
-KERAS BACKGROUND
+KERAS BACKGROUND (*include link*)
 
 The Keras driven overhead was eliminated by following the next steps:
 
