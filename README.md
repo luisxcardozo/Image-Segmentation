@@ -1,5 +1,5 @@
-# HOW TO OPTIMIZE IMAGE SEGMENTATION WITH 3D U-NET 
-# IN TENSORFLOW* FOR CPU
+# ** HOW TO OPTIMIZE IMAGE SEGMENTATION WITH 3D U-NET **
+# ** IN TENSORFLOW* FOR CPU **
 
 Yiqiang Li1, Wenxi Zhu1, Shankar Ratneshwaran2, Kevin Bryan2, Luis Cardozo2
 
@@ -13,25 +13,23 @@ This guide will provide performance improvements by:
 2.	Ways to eliminate technology driven bottlenecks.
 
 
-# ABSTRACT  
+### ABSTRACT  
 Tensorflow* CPU optimization for volumetric segmentation in medical imaging with 3D Unet with Keras, on Intel® Xeon® processor-based platforms. 5.4x improvement in performance for training on Intel 8180 against an unoptimized run by solving bottlenecks within the network architecture. 
 Models’ performance are optimized by leveraging Intel’s highly optimized math routines for deep learning. This primitives library is called Intel Math Kernel Library for Deep Neural Networks (Intel MKL-DNN) and includes convolution, normalization, activation and inner product, and other primi-tives and by reviewing bottleneck opportunities within the model’s sections. These steps are high-ly relevant as recent academic articles predict the development of non-static neural networks that increase memory and computational requirements, especially where accuracy minimization is paramount, like in the bio-med industry.
 KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentation, Ten-sorflow Optimization,
 
-# BACKGROUND
-# ARCHITECTURE
+### BACKGROUND
+### ARCHITECTURE
 
-Evaluation Environment
+#### Evaluation Environment
 
-HW	          Xeon Platinum 8180, @2.5G Turbo on, HT on, NUMA
-OS	          CentOS Linux 7 (Core)  kernel 3.10.0-693.el7.x86_64
-Tensorflow	  v1.8rc1, commit id: 2dc7357
-Keras	        v2.1.5
-MKLDNN	      v0.13
-Model	3D-UNet (https://github.com/ellisdg/3DUnetCNN )
-
-Dataset	BraTS (http://www.med.upenn.edu/sbia/brats2017.html)
-
-CMD (inference)	$python predict.py
-BS	1
+- HW	          Xeon Platinum 8180, @2.5G Turbo on, HT on, NUMA
+- OS	          CentOS Linux 7 (Core)  kernel 3.10.0-693.el7.x86_64
+- Tensorflow	  v1.8rc1, commit id: 2dc7357
+- Keras	        v2.1.5
+- MKLDNN	      v0.13
+- Model	3D-UNet (https://github.com/ellisdg/3DUnetCNN )
+- Dataset	BraTS (http://www.med.upenn.edu/sbia/brats2017.html)
+- CMD (inference)	$python predict.py
+- BS	1
 
