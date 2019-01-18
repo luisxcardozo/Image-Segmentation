@@ -45,4 +45,42 @@ Step 6 of the guide recommends to run the improved UNet model
 $ python train_isensee2017.py
 ```
 
+If you encounter memory issues during training try setting   config['patch_shape`] = (64, 64, 64).
+
+The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table. 
+
+*insert table*
+
+#PERFORMANCE OPTIMIZATION
+#Step 3. Optimizing TensorFlow* for CPU.  
+Intel developed specialized primitives libraries that increase Deep Neural Network model per-formance. This performance boost can be installed from Anaconda or from the Intel channel and run on Linux*, and on Windows* or OS*. 
+
+- [Guide: Intel® Optimization for TensorFlow* Installation Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
+
+*insert table*
+
+Step 4. Bottleneck analysis.
+Performing an inference time breakdown provided the following results:
+
+*insert bottleneck table*
+
+Indicating that transpose operations create an overhead that corresponds to 34% of total infer-ence execution time caused by Keras’ structure.
+
+KERAS BACKGROUND
+
+The Keras driven overhead was eliminated by following the next steps:
+
+1 A) ...  (ip)
+
+# RESULTS
+Our engineers designed the elimination of inefficiencies in stages. Results for single-socket are shown in the following table.
+
+*insert table*
+
+# CONCLUSION
+The optimization of TensorFlow* allows for deep-learning models built for this common framework to run several magnitudes faster on Intel* processors to increase scaling and analytical flexibility. The Intel Xeon* processor is designed to scale comfortably to reduce training time of machine learning models. The collaboration between Intel and Google engineers to optimize TensorFlow* for higher performance on Intel* CPUs is part of ongoing efforts to increase the flexibility of AI ap-plications by running on multiple mediums. Intel* believes the expansion of this accessibility is critical in the development of the next generation of AI models, and our efforts shed light into this by obtaining a projected 5.4x performance improvement with Intel Xeon Platinum 8180* CPU. 
+
+
+
+
 
