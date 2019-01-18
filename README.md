@@ -33,3 +33,16 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 - CMD (inference)	$python predict.py
 - BS	1
 
+
+#1. Getting started.
+Follow the guide to access and download the BRATS dataset, and prepare the data for training.
+Guide: [3D U-Net Convolution Neural Network with Keras](http://github.com/nervanasystem/tensorflow-3dunet)
+
+#2. Determining benchmark.
+Step 6 of the guide recommends to run the improved UNet model
+
+```
+$ python train_isensee2017.py
+```
+
+
