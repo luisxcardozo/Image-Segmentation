@@ -65,6 +65,9 @@ Performing an inference time breakdown provided the following results:
 
 *insert bottleneck table*
 
+
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
 Indicating that transpose operations create an overhead that corresponds to 34% of total infer-ence execution time caused by Keras’ structure.
 
 KERAS BACKGROUND (*include link*)
