@@ -52,7 +52,8 @@ The first run determines a benchmark that would allow measuring optimization att
 *insert table*
 
 
-# Step 3. Optimizing TensorFlow* for CPU.  (*#PERFORMANCE OPTIMIZATION*)
+# Step 3. Optimizing TensorFlow* for CPU.  
+(*PERFORMANCE OPTIMIZATION*)
 Intel developed specialized primitives libraries that increase Deep Neural Network model per-formance. This performance boost can be installed from Anaconda or from the Intel channel and run on Linux*, and on Windows* or OS*. 
 
 - [Guide: Intel® Optimization for TensorFlow* Installation Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
