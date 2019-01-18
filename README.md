@@ -34,11 +34,11 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 - BS	1
 
 
-# 1. Getting started.
+## 1. Getting started.
 Follow the guide to access and download the BRATS dataset, and prepare the data for training.
 - Guide: [3D U-Net Convolution Neural Network with Keras](http://github.com/nervanasystem/tensorflow-3dunet) (*needs to be opened*)
 
-# 2. Determining benchmark.
+## 2. Determining benchmark.
 Step 6 of the guide recommends to run the improved UNet model
 
 ```
@@ -59,7 +59,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 
 *insert table*
 
-# Step 4. Bottleneck analysis.
+## Step 4. Bottleneck analysis.
 Performing an inference time breakdown provided the following results:
 
 *insert bottleneck table*
