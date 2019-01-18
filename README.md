@@ -1,5 +1,4 @@
-#                                      HOW TO OPTIMIZE IMAGE SEGMENTATION WITH 3D U-NET
-#                                                  IN TENSORFLOW* FOR CPU
+#                             HOW TO OPTIMIZE IMAGE SEGMENTATION WITH 3D U-NET IN TENSORFLOW* FOR CPU
 
 Yiqiang Li1, Wenxi Zhu1, Shankar Ratneshwaran2, Kevin Bryan2, Luis Cardozo2
 
