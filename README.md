@@ -18,7 +18,7 @@ Models’ performance are optimized by leveraging Intel’s highly optimized mat
 KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentation, Ten-sorflow Optimization,
 
 ### [BACKGROUND](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/ISBackground.md)
-### ARCHITECTURE
+### [ARCHITECTURE](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/3DUnetArchitecture.md)
 
 #### Evaluation Environment
 
