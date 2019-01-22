@@ -64,7 +64,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 Performing an inference time breakdown provided the following results:
 
 <p align="center">
-  <img width="759" height="287" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG">
+  <img width="750" height="250" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG">
 </p>
 
 ![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG)
