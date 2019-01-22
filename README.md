@@ -79,7 +79,7 @@ Our engineers designed the elimination of inefficiencies in stages. Results for 
 
 | Optimization Step | Throughput (Image/sec) | Performance Improvement |
 | :---         |     :---:      |    :---:      |
-|Benchmark   | .035     |     |
+|Benchmark   | (ip)     |     |
 | Optimized TF*     | .035       | tbd     |
 | Integrate Conv3D    | .050      | 1.43X      |
 | Integrate Deconv3D  | .068       | 1.94X     |
