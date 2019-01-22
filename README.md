@@ -63,7 +63,9 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 ## Step 4. Bottleneck analysis.
 Performing an inference time breakdown provided the following results:
 
-<img align="center" width="600" height="178.22" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG"> 
+<p align="center">
+  <img width="600" height="188.72" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG">
+</p>
 
 ![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG)
 
