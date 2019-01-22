@@ -74,7 +74,7 @@ The Keras driven overhead was eliminated by following the next steps:
 # RESULTS
 Our engineers designed the elimination of inefficiencies in stages. Results for single-socket are shown in the following table.
 
-*insert table*
+![Results](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Results.PNG)
 
 # CONCLUSION
 The optimization of TensorFlow* allows for deep-learning models built for this common framework to run several magnitudes faster on Intel* processors to increase scaling and analytical flexibility. The Intel Xeon* processor is designed to scale comfortably to reduce training time of machine learning models. The collaboration between Intel and Google engineers to optimize TensorFlow* for higher performance on Intel* CPUs is part of ongoing efforts to increase the flexibility of AI ap-plications by running on multiple mediums. Intel* believes the expansion of this accessibility is critical in the development of the next generation of AI models, and our efforts shed light into this by obtaining a projected 5.4x performance improvement with Intel Xeon Platinum 8180* CPU. 
