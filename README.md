@@ -67,7 +67,7 @@ Indicating that transpose operations create an overhead that corresponds to 34% 
 
 KERAS BACKGROUND (*include link*)
 
-The Keras driven overhead was eliminated by following the next steps:
+The Keras driven overhead was eliminated by following these steps:
 
 1 A) ...  (ip)
 
