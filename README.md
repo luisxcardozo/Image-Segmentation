@@ -71,7 +71,7 @@ Indicating that transpose operations create an overhead that corresponds to 34% 
 
 [KERAS BACKGROUND](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Keras_background.md)
 
-The Keras driven overhead was eliminated by following these [step-by-step guide](https://github.com/NervanaSystems/tensorflow-3DUNet)
+The Keras driven overhead was eliminated by following this [step-by-step guide](https://github.com/NervanaSystems/tensorflow-3DUNet)
 
 # RESULTS
 Our engineers designed the elimination of inefficiencies in stages. Results for single-socket are shown in the following table.
