@@ -56,7 +56,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 
 - [Guide: Intel® Optimization for TensorFlow* Installation Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
 
-*insert table*
+![Step Three](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/step_three.PNG)
 
 ## Step 4. Bottleneck analysis.
 Performing an inference time breakdown provided the following results:
