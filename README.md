@@ -24,16 +24,6 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 #### Evaluation Environment
 
-- HW	          Xeon Platinum 8180, @2.5G Turbo on, HT on, NUMA
-- OS	          CentOS Linux 7 (Core)  kernel 3.10.0-693.el7.x86_64
-- Tensorflow	  v1.8rc1, commit id: 2dc7357
-- Keras	        v2.1.5
-- MKLDNN	      v0.13
-- Model	3D-UNet (https://github.com/ellisdg/3DUnetCNN )
-- Dataset	BraTS (http://www.med.upenn.edu/sbia/brats2017.html)
-- CMD (inference)	$python predict.py
-- BS	1
-
 |  |  | 
 | :---         | :---        | 
 |HW   | Xeon Platinum 8180, @2.5G Turbo on, HT on, NUMA     |
