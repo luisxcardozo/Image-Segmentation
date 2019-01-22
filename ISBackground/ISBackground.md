@@ -11,4 +11,4 @@ Although in many Bio-med cases a small number of images are sufficient to train 
 
 Fig 1 represents how the volumetric segmentation process with a 3D U-net architecture works. In the first step, the analyst annotates the volumes for segmentation (a), and then the network performs a fully-automated segmentation based pm a representative training set (b).
 
-![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG)
+![Image Segmentation Process](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/ISBacground.PNG)
