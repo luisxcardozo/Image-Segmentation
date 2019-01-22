@@ -78,9 +78,8 @@ The Keras driven overhead was eliminated by following these steps:
 # RESULTS
 Our engineers designed the elimination of inefficiencies in stages. Results for single-socket are shown in the following table.
 
-![Results](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Results.PNG)
 
-| Optimization Step | Throughput (Image/sec | Perf Improvement |
+| Optimization Step | Throughput (Image/sec) | Performance Improvement |
 | :---         |     :---:      |    :---:      |
 |Benchmark   | .035     |     |
 | Optimized TF*     | .035       | tbd     |
