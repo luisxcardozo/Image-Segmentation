@@ -46,9 +46,9 @@ $ python train_isensee2017.py
 
 If you encounter memory issues during training try setting   config['patch_shape`] = (64, 64, 64).
 
-The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table. 
+The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  <img align="right" width="100" height="100" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
 
-![benchmark_table](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG)
+![Step_Two](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG)
 
 # Step 3. Optimizing TensorFlow* for CPU.  
 (*PERFORMANCE OPTIMIZATION*)
