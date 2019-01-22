@@ -46,8 +46,9 @@ $ python train_isensee2017.py
 
 If you encounter memory issues during training try setting   config['patch_shape`] = (64, 64, 64).
 
+<img align="right" width="400" height="800" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
 The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  
-<img align="right" width="400" height="100" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
+
 
 ![Step_Two](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG)
 
