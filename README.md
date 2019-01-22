@@ -17,7 +17,7 @@ Tensorflow* CPU optimization for volumetric segmentation in medical imaging with
 Models’ performance are optimized by leveraging Intel’s highly optimized math routines for deep learning. This primitives library is called Intel Math Kernel Library for Deep Neural Networks (Intel MKL-DNN) and includes convolution, normalization, activation and inner product, and other primi-tives and by reviewing bottleneck opportunities within the model’s sections. These steps are high-ly relevant as recent academic articles predict the development of non-static neural networks that increase memory and computational requirements, especially where accuracy minimization is paramount, like in the bio-med industry.
 KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentation, Ten-sorflow Optimization,
 
-### [BACKGROUND](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/ISBackground.md)       [ARCHITECTURE](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/3DUnetArchitecture.md)
+### [BACKGROUND](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/ISBackground.md)            [ARCHITECTURE](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/3DUnetArchitecture.md)
 
 #### Evaluation Environment
 
