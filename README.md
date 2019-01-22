@@ -34,7 +34,6 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 - CMD (inference)	$python predict.py
 - BS	1
 
-| :---         |     :---:      |
 |HW   | Xeon Platinum 8180, @2.5G Turbo on, HT on, NUMA     |
 | OS    | CentOS Linux 7 (Core)  kernel 3.10.0-693.el7.x86_64       |
 | Tensorflow   | v1.8rc1, commit id: 2dc7357    |
