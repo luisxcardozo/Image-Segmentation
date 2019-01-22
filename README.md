@@ -48,7 +48,7 @@ If you encounter memory issues during training try setting   config['patch_shape
 
 The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table. 
 
-[benchmark_table](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/setting_benchmark.PNG)
+![benchmark_table](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/setting_benchmark.PNG)
 
 # Step 3. Optimizing TensorFlow* for CPU.  
 (*PERFORMANCE OPTIMIZATION*)
