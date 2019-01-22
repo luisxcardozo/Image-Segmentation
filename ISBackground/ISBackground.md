@@ -10,3 +10,5 @@ Today, CNN compete in image segmentation with human Subject Matter Experts, lead
 Although in many Bio-med cases a small number of images are sufficient to train a neural network, today’s greater need of granularity makes preprocessing complex. It is common to see images greater than 300 MB, and feeding a file this size to a neural net is engrossed and memory inefficient. So preprocessing on common databases, like LIDC-IDRI, may take up to, or exceed, 24 hrs, depending on the platform.
 
 Fig 1 represents how the volumetric segmentation process with a 3D U-net architecture works. In the first step, the analyst annotates the volumes for segmentation (a), and then the network performs a fully-automated segmentation based pm a representative training set (b).
+
+![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG)
