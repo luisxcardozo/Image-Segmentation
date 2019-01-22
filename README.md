@@ -50,8 +50,10 @@ If you encounter memory issues during training try setting   config['patch_shape
 The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  
 
 
-# Step 3. Optimizing TensorFlow* for CPU.  
+
+## Step 3. Optimizing TensorFlow* for CPU.  
 (*PERFORMANCE OPTIMIZATION*)
+<img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_three.PNG"> 
 Intel developed specialized primitives libraries that increase Deep Neural Network model per-formance. This performance boost can be installed from Anaconda or from the Intel channel and run on Linux*, and on Windows* or OS*. 
 
 - [Guide: Intel® Optimization for TensorFlow* Installation Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
