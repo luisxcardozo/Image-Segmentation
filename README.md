@@ -67,7 +67,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 ## Step 4. Bottleneck analysis.
 Performing an inference time breakdown provided the following results:
 
-![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/Inference%20Time%20Breakdown.PNG)
+![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Inference%20Time%20Breakdown.PNG)
 
 Indicating that transpose operations create an overhead that corresponds to 34% of total inference execution time caused by Keras* structure.
 
