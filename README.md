@@ -1,6 +1,6 @@
 #                             HOW TO OPTIMIZE IMAGE SEGMENTATION WITH 3D U-NET IN TENSORFLOW* FOR CPU
 
-Yiqiang Li1, Wenxi Zhu<sup>superscript</sup>1, Shankar Ratneshwaran2, Kevin Bryan2, Luis Cardozo2
+Yiqiang Li1, Wenxi Zhu<sup>1</sup>, Shankar Ratneshwaran2, Kevin Bryan2, Luis Cardozo2
 
 - 1 Developer Product Division Machine Learning Translator - Shangai, Intel
 - 2 Artificial Intelligence Center For Excellence at Intel – Santa Clara, TCS
