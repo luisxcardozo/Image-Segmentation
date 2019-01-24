@@ -40,7 +40,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 Follow the guide to access and download the BRATS dataset, and prepare the data for training.
 - Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
 
-## 2. Determining benchmark.
+## 2. Determining baseline.
 Step 6 of the guide recommends to run the improved UNet model
 
 ```
@@ -80,14 +80,14 @@ Our engineers designed the elimination of inefficiencies in stages. Results show
 
 | Optimization Step | Throughput (Image/sec) | Performance Improvement |
 | :---         |     :---:      |    :---:      |
-|Benchmark   | (ip)     |     |
+|Baseline   | (ip)     |     |
 | Optimized TensorFlow*     | .035       | tbd     |
 | Integrate Conv3D    | .050      | 1.43X      |
 | Integrate Deconv3D  | .068       | 1.94X     |
 | Overhead Removal   | **.189**      | **5.4X**      |
 
 # CONCLUSION
-The optimization of TensorFlow* allows for deep-learning models built for this common framework to run several magnitudes faster on Intel® processors to increase scaling and analytical flexibility. The Xeon® processor is designed to scale comfortably to reduce training time of machine learning models. The collaboration between Intel® and Google* engineers to optimize TensorFlow* for higher performance on CPUs is part of ongoing efforts to increase the flexibility of AI applications by running on multiple mediums. Intel® believes the expansion of this accessibility is critical in the development of the next generation of AI models, and our efforts shed light into this by obtaining a projected 5.4x performance improvement with Intel® Xeon® Platinum 8180®. 
+The optimization of TensorFlow* allows for deep-learning models built for this common framework to run several magnitudes faster on Intel® processors to increase scaling and analytical flexibility. The Xeon® processor is designed to scale comfortably to reduce training time of machine learning models. The collaboration between Intel® and Google* engineers to optimize TensorFlow* for higher performance on CPUs is part of ongoing efforts to increase the flexibility of AI applications by running on multiple mediums. Intel® believes the expansion of this accessibility is critical in the development of the next generation of AI models, and our efforts shed light into this by obtaining a 5.4x performance improvement with Intel® Xeon® Platinum 8180®. 
 
 
 
