@@ -38,7 +38,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 ## 1. Getting started.
 Follow the guide to access and download the BRATS dataset, and prepare the data for training.
-- Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
+- Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/NervanaSystems/tensorflow-3DUNet)
 
 ## 2. Determining baseline.
 Step 6 of the guide recommends to run the improved UNet model
