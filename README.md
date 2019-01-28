@@ -41,13 +41,8 @@ Follow the guide to access and download the BRATS dataset, and prepare the data 
 - Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/NervanaSystems/tensorflow-3DUNet)
 
 ## 2. Determining baseline.
-Step 6 of the guide recommends to run the improved UNet model
+Pre-trained model is located at the bottom of the page of the following link. [pre-trained model](https://github.com/NervanaSystems/tensorflow-3DUNet).
 
-```
-$ python train_isensee2017.py
-```
-
-If you encounter memory issues during training try setting   config['patch_shape`] = (64, 64, 64).
 
 <img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
 The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  
