@@ -14,4 +14,5 @@ This condition creates a significant overhead in typical CNN models that in this
 1)	Detect the "transpose + conv2d + transpose" pattern;
 2)	Delete those 2 "transpose" ops, and make "conv2d"'s format "NCHW", and
 3)	Replace "conv2d" with "_MklConv2D", which supports both "NCHW" and "NHWC" format.
+
 The dialogue with Google can be located at:  https://github.com/tensorflow/tensorflow/pull/23152
