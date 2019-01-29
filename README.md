@@ -12,8 +12,9 @@ Learn CPU performance optimizations for image segmentation with 3d-UNet optimiza
 
 
 ### ABSTRACT  
-Tensorflow* CPU optimization for volumetric segmentation in medical imaging with 3D Unet with Keras*, on Intel® Xeon® processor-based platforms. 5.4x improvement in performance for training on Intel® 8180 against an unoptimized run by solving bottlenecks within the network architecture. 
-Models’ performance is improved by leveraging Intel®’s highly optimized math routines for deep learning. This primitives library is called Intel® Math Kernel Library for Deep Neural Networks (MKL-DNN) and includes convolution, normalization, activation and inner product, and other primitives, and by reviewing bottleneck opportunities within the model’s sections. These steps are highly relevant as recent academic articles predict the development of non-static neural networks that increase memory and computational requirements, especially where accuracy minimization is paramount, like in the bio-med industry.
+5.4x improvement in inference performance on Intel® 8180 by solving architecture bottlenecks by leveraging Intel®’s highly optimized math routines for deep learning and Tensorflow* CPU optimization. For volumetric segmentation in medical imaging with 3D Unet with Keras*, on Intel® Xeon® processor-based platforms. 
+
+Intel®’s primitives library is called Intel® Math Kernel Library for Deep Neural Networks (MKL-DNN) and includes convolution, normalization, activation and inner product, and other primitives, and by reviewing bottleneck opportunities within the model’s sections. These steps are highly relevant as recent academic articles predict the development of non-static neural networks that increase memory and computational requirements, especially where accuracy minimization is paramount, like in the bio-med industry.
 
 
 KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentation, Ten-sorflow Optimization,
