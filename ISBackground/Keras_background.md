@@ -11,7 +11,7 @@ According to Keras. Tensorflow causes this condition by supporting two data form
 ![keras background](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Keras_Background.PNG)
 
 This condition creates a significant overhead in typical CNN models that in this case contribute to roughly 34% of total inference time in 3D-UNet. We initiated a PR with Google aimed at removing this overhead, suggesting the following steps:
-a)	Detect the "transpose + conv2d + transpose" pattern;
-b)	Delete those 2 "transpose" ops, and make "conv2d"'s format "NCHW", and
-c)	Replace "conv2d" with "_MklConv2D", which supports both "NCHW" and "NHWC" format.
+1)	Detect the "transpose + conv2d + transpose" pattern;
+2)	Delete those 2 "transpose" ops, and make "conv2d"'s format "NCHW", and
+3)	Replace "conv2d" with "_MklConv2D", which supports both "NCHW" and "NHWC" format.
 The dialogue with Google can be located at:  https://github.com/tensorflow/tensorflow/pull/23152
