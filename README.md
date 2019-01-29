@@ -36,7 +36,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 | BS | 1 |
 
 
-## 1. Getting started.
+## Step 1. Getting started.
 Follow the guide to access and download the BRATS dataset, and prepare the data for training.
 - Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
 
@@ -46,7 +46,7 @@ also, instructions to install pytable and nipype dependencies.
 - pytable: $pip install tables
 - nipype:  $pip install nipype 
 
-## 2. Determining baseline.
+## Step 2. Determining baseline.
 Pre-trained model is located at the bottom of the page of the following link. [pre-trained model](https://github.com/NervanaSystems/tensorflow-3DUNet).
 
 
