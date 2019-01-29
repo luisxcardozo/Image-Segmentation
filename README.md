@@ -31,7 +31,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 | Keras  | v2.1.5      |
 | MKLDNN   | v0.13  |
 | Model	3D-UNet | (https://github.com/ellisdg/3DUnetCNN ) |
-| Dataset | BraTS ((http://www.med.upenn.edu/sbia/brats2017.html)) |
+| Dataset | BraTS (http://www.med.upenn.edu/sbia/brats2017.html) |
 | CMD (inference)| $python predict.py|
 | BS | 1 |
 
