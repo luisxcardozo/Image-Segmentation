@@ -57,7 +57,6 @@ The first run determines a benchmark that would allow measuring optimization att
 
 
 ## Step 3. Optimizing TensorFlow* for CPU.  
-(*PERFORMANCE OPTIMIZATION*)
 Optimize TensorFlow* for CPU.
 <img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_three.PNG"> 
 
