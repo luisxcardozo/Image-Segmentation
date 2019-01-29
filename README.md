@@ -39,7 +39,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 ## Step 1. Getting started.
 
-[Download tensorflow*](https://github.com/tensorflow/tensorflow/releases?after=v1.10.1} (v1.8 located in second page)
+[Download tensorflow](https://github.com/tensorflow/tensorflow/releases?after=v1.10.1} (v1.8 located in second page)
 
 Access and download the BRATS dataset.
 - Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
