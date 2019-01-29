@@ -11,6 +11,8 @@ Learn CPU performance optimizations for image segmentation with 3d-UNet optimiza
 2.	Eliminating technology driven bottlenecks.
 
 
+
+
 ### ABSTRACT  
 5.4x improvement in inference performance on Intel® 8180 by solving architecture bottlenecks by leveraging Intel®’s highly optimized math routines for deep learning and Tensorflow* CPU optimization. For volumetric segmentation in medical imaging with 3D Unet with Keras*, on Intel® Xeon® processor-based platforms. 
 
@@ -35,6 +37,9 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 | Dataset | BraTS (http://www.med.upenn.edu/sbia/brats2017.html) |
 | CMD (inference)| $python predict.py|
 | BS | 1 |
+
+
+
 
 
 ## Step 1. Getting started.
