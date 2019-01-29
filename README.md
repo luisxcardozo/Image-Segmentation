@@ -38,7 +38,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 
 ## Step 1. Getting started.
-Follow the guide to access and download the BRATS dataset, and prepare the data for training.
+Access and download the BRATS dataset.
 - Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
 
 Note: when installing ANTs ([ANTs version 2.1.0](https://github.com/ANTsX/ANTs/releases/tag/v2.1.0)), download the Linux_Debbien_jessie_x64_tar.bz2 package
@@ -48,7 +48,7 @@ also, instructions to install pytable and nipype dependencies.
 - nipype:  $pip install nipype 
 
 ## Step 2. Determining baseline.
-Pre-trained model is located at the bottom of the page of the following link. [pre-trained model](https://github.com/NervanaSystems/tensorflow-3DUNet).
+Access and download pretrain model located at the bottom of the page of the following link. [pre-trained model](https://github.com/NervanaSystems/tensorflow-3DUNet).
 
 
 <img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
