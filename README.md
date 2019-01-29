@@ -6,9 +6,9 @@
 - 2 - Artificial Intelligence Center For Excellence at Intel – Santa Clara, TCS
 
 ### GOAL
-This tutorial will introduce you to CPU performance optimizations for image segmentation with 3d-UNet optimizations and provide performance improvements by:
-1.	Means to optimize Tensorflow* to run faster on CPU;
-2.	Ways to eliminate technology driven bottlenecks.
+Learn CPU performance optimizations for image segmentation with 3d-UNet optimizations by:
+1.	Optimizing Tensorflow* to run faster on CPU;
+2.	Eliminating technology driven bottlenecks.
 
 
 ### ABSTRACT  
