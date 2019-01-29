@@ -60,6 +60,7 @@ The first run determines a benchmark that would allow measuring optimization att
 (*PERFORMANCE OPTIMIZATION*)
 Optimize TensorFlow* for CPU.
 <img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_three.PNG"> 
+
 Intel developed specialized primitives libraries that increase Deep Neural Network model performance. This performance boost can be installed from Anaconda* or from the Intel® channel and run on Linux*, and on Windows* or OS*. 
 
 - [Guide: Intel® Optimization for TensorFlow* Installation Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
@@ -67,7 +68,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 
 
 ## Step 4. Bottleneck analysis.
-Performing an inference time breakdown indicate that transpose operations create an overhead that corresponds to 34% of total inference execution time caused by Keras* structure.
+Performing an inference time breakdown indicates that transpose operations create an overhead that corresponds to 34% of total inference execution time caused by Keras* structure.
 
 ![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Inference%20Time%20Breakdown.PNG)
 
