@@ -47,8 +47,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 [Download Tensorflow](https://github.com/tensorflow/tensorflow/releases?after=v1.10.1) 
 *(v1.8 located in second page)*
 
-Access and download the BRATS dataset.
-- Guide: [3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
+[Guide to 3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN)
 
 Note: when installing ANTs ([ANTs version 2.1.0](https://github.com/ANTsX/ANTs/releases/tag/v2.1.0)), download the Linux_Debbien_jessie_x64_tar.bz2 package
 
