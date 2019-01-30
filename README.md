@@ -42,7 +42,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 
 
-## Step 1. Getting started.
+## Step 1. Getting started and determining baseline.
 
 [Download Tensorflow](https://github.com/tensorflow/tensorflow/releases?after=v1.10.1) 
 *(v1.8 located in second page)*
@@ -55,16 +55,12 @@ also, instructions to install pytable and nipype dependencies.
 - pytable: $pip install tables
 - nipype:  $pip install nipype 
 
-## Step 2. Determining baseline.
-Access and download pretrain model located at the bottom of the page of the following link. [pre-trained model](https://github.com/NervanaSystems/tensorflow-3DUNet).
-
-
 <img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
 The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  
 
 
 
-## Step 3. Optimizing TensorFlow* for CPU.  
+## Step 2. Optimizing TensorFlow* for CPU.  
 Optimize TensorFlow* for CPU.
 <img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_three.PNG"> 
 
@@ -74,7 +70,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 
 
 
-## Step 4. Bottleneck analysis.
+## Step 3. Bottleneck analysis.
 Performing an inference time breakdown indicates that transpose operations create an overhead that corresponds to 34% of total inference execution time caused by Keras* structure.
 
 [Profiling code for 3D-Unet bottleneck diagnosis](https://github.com/NervanaSystems/tensorflow-3DUNet/blob/master/brats/predict.py#L29) and [Profiler (*with demo and tutorials*)](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/profiler/README.md#features)
