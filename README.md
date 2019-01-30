@@ -46,7 +46,8 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 [Download Tensorflow](https://github.com/tensorflow/tensorflow/releases?after=v1.10.1) 
 *(v1.8 located in second page)*
-You can skip Step 2 by directly [optimizing TensorFlow* for CPU](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
+
+You can skip Step 2 by directly [optimizing TensorFlow* for CPU.](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
 
 [Guide to 3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN) *(includes pre-trained models)*
 
