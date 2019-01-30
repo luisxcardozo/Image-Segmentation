@@ -55,7 +55,7 @@ also, instructions to install pytable and nipype dependencies.
 - pytable: $pip install tables
 - nipype:  $pip install nipype 
 
-<img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_two.PNG"> 
+<img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/3DUNET%20Throughput%20Baseline.PNG"> 
 The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  
 
 
