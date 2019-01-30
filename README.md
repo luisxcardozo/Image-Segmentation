@@ -44,10 +44,12 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 ## Step 1. Getting started and determining baseline.
 
-[Download Tensorflow](https://github.com/tensorflow/tensorflow/releases?after=v1.10.1) 
-*(v1.8 located in second page)*
+Download CPU optimized Tensorflow from:
+- [Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide), or 
+- [Build](https://github.com/tensorflow/tensorflow/#community-supported-builds) *(Linux CPU with Intel® MKL-DNN Nightly)*
+/  
 
-You can skip Step 2 by directly [optimizing TensorFlow* for CPU.](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
+
 
 [Guide to 3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN) *(includes pre-trained models)*
 
@@ -62,17 +64,8 @@ The first run determines a benchmark that would allow measuring optimization att
 
 
 
-## Step 2. Optimizing TensorFlow* for CPU.  
-Optimize TensorFlow* for CPU.
-<img align="right" width="359" height="82" src="https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Step_three.PNG"> 
 
-Intel developed specialized primitives libraries that increase Deep Neural Network model performance. This performance boost can be installed from Anaconda* or from the Intel® channel and run on Linux*, and on Windows* or OS*. 
-
-- [Guide: Intel® Optimization for TensorFlow* Installation Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide)
-
-
-
-## Step 3. Bottleneck analysis.
+## Step 2. Bottleneck analysis.
 Performing an inference time breakdown indicates that transpose operations create an overhead that corresponds to 34% of total inference execution time caused by Keras* structure.
 
 [Profiling code for 3D-Unet bottleneck diagnosis](https://github.com/NervanaSystems/tensorflow-3DUNet/blob/master/brats/predict.py#L29) and [Profiler (*with demo and tutorials*)](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/profiler/README.md#features)
