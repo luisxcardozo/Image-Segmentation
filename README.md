@@ -78,7 +78,7 @@ Intel developed specialized primitives libraries that increase Deep Neural Netwo
 ## Step 4. Bottleneck analysis.
 Performing an inference time breakdown indicates that transpose operations create an overhead that corresponds to 34% of total inference execution time caused by Keras* structure.
 
-[Profiling code for 3D-Unet bottleneck diagnosis](https://github.com/NervanaSystems/tensorflow-3DUNet/blob/master/brats/predict.py#L29) and [Profiler](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/profiler/README.md#features)
+[Profiling code for 3D-Unet bottleneck diagnosis](https://github.com/NervanaSystems/tensorflow-3DUNet/blob/master/brats/predict.py#L29) and [Profiler (*with demo and tutorials*)](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/profiler/README.md#features)
 
 ![Inference Time breakdown](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Inference%20Time%20Breakdown.PNG)
 
