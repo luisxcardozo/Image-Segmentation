@@ -37,7 +37,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 | Dataset | BraTS (http://www.med.upenn.edu/sbia/brats2017.html) |
 | CMD (inference)| $python predict.py|
 | BS | 1 |
-
+|Python| [3.6](https://www.python.org/downloads/)|
 
 
 
