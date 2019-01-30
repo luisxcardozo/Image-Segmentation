@@ -47,7 +47,7 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 Download CPU optimized Tensorflow from:
 - [Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide), or 
 - [Build](https://github.com/tensorflow/tensorflow/#community-supported-builds) *(Linux CPU with Intel® MKL-DNN Nightly)*
-/  
+   
 
 
 
