@@ -44,14 +44,9 @@ KEYWORDS. Convolutional Neural Networks, Biomedical Volumetric Image Segmentatio
 
 ## Step 1. Getting started and determining baseline.
 
-Download CPU optimized Tensorflow from:
-- [Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide), or 
-- [Build](https://github.com/tensorflow/tensorflow/#community-supported-builds) *(Linux CPU with Intel® MKL-DNN Nightly)*
+a) Download CPU optimized Tensorflow from this [Guide](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide).
    
-
-
-
-[Guide to 3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN) *(includes pre-trained models)*
+b) Follow this [guide to 3D U-Net Convolution Neural Network with Keras](https://github.com/ellisdg/3DUnetCNN) *(includes pre-trained models)*
 
 Note: when installing ANTs ([ANTs version 2.1.0](https://github.com/ANTsX/ANTs/releases/tag/v2.1.0)), download the Linux_Debbien_jessie_x64_tar.bz2 package
 
@@ -60,7 +55,7 @@ also, instructions to install pytable and nipype dependencies.
 - nipype:  $pip install nipype 
 
 
-The first run determines a benchmark that would allow measuring optimization attempts. Results represented in the following table.  
+The first run determines a baseline that would allow measuring optimization attempts.  
 
 
 
@@ -74,7 +69,12 @@ Performing an inference time breakdown indicates that transpose operations creat
 
 
 
-The Keras* driven overhead was eliminated by following this [step-by-step guide (with background)](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Keras_background.md)
+The Keras* driven overhead was eliminated by following this [guide (with background)](https://github.com/luisxcardozo/Image-Segmentation/blob/master/ISBackground/Keras_background.md)
+
+Additional Opportunities were found with:
+- **3D op integration.** Previous tensorflow versions do not have MKL-DNN version of “Conv3D”, “Deconv3d” and “Maxpooling3D”, so it defaults to tensorflow’s naïve implementations, which are very slow. 
+- **MKL-DNN primitive cache.** Tensorflow deallocated ops after every iteration and re-created them before the next iterations, consequently we have to re-create MKL-DNN primitive at every iteration. It is time consuming because JIT code generation in primitive creation is a heavy task. To address the problem, we use a global primitive cache (hash table) to store MKL-DNN primitive and resue the JIT code in the following iterations.
+
 
 # RESULTS
 Our engineers designed the elimination of inefficiencies in stages. Results shown in the following table.
@@ -82,8 +82,7 @@ Our engineers designed the elimination of inefficiencies in stages. Results show
 
 | Optimization Step | Throughput (Image/sec) | Performance Improvement |
 | :---         |     :---:      |    :---:      |
-|Baseline   | (ip)     |     |
-| Optimized TensorFlow*     | .035       | tbd     |
+| Baseline     | .035       | tbd     |
 | Integrate Conv3D    | .050      | 1.43X      |
 | Integrate Deconv3D  | .068       | 1.94X     |
 | Overhead Removal   | **.189**      | **5.4X**      |
